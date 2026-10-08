@@ -5,5 +5,7 @@
 //Estudos.Praticos.ConversorCelsius.Executar();
 //Estudos.Praticos.CalculadoraIMC.Executar();
 //Estudos.Praticos.LogicaDecisao.Executar();
+//Estudos.Praticos.RenovacaoAssinatura.Executar();
+//Estudos.Praticos.LacosRepeticao.Executar();
 
-Estudos.Praticos.RenovacaoAssinatura.Executar();
+Estudos.Praticos.Modulos.Metodos.Executar();

@@ -12,3 +12,4 @@ D:\CSharp\Projetos\Estudos\Estudos\obj\Debug\net10.0\refint\Estudos.dll
 D:\CSharp\Projetos\Estudos\Estudos\obj\Debug\net10.0\Estudos.pdb
 D:\CSharp\Projetos\Estudos\Estudos\obj\Debug\net10.0\Estudos.genruntimeconfig.cache
 D:\CSharp\Projetos\Estudos\Estudos\obj\Debug\net10.0\ref\Estudos.dll
+D:\CSharp\Projetos\Estudos\Estudos\obj\Debug\net10.0\Estudos.sourcelink.json
