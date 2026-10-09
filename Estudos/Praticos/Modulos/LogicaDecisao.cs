@@ -4,52 +4,58 @@ namespace Estudos.Praticos;
 
 public class LogicaDecisao
 {
-    public static void Executar()
+    public static void AdicionandoCaminhoAlternativo()
     {
-        // Adicionando um caminho alternativo com outro
         int total = 12;
-        if (total >= 15) Console.WriteLine("You win!");
-        else Console.WriteLine("Sorry, you lose.");
+        if (total >= 15) Console.WriteLine("Você venceu!");
+        else Console.WriteLine("Desculpe, você perdeu.");
+    }
 
-        // Encadeando condições com else if
+    public static void EncadeandoCondicoes()
+    {
         int total2 = 12;
-        if (total2 >= 16) Console.WriteLine("You win a new car!");
-        else if (total2 >= 10) Console.WriteLine("You win a new laptop!");
-        else if (total2 == 7) Console.WriteLine("You win a trip for two!");
-        else Console.WriteLine("You win a kitten!");
+        if (total2 >= 16) Console.WriteLine("Você venceu um novo carro!");
+        else if (total2 >= 10) Console.WriteLine("Você venceu um novo laptop!");
+        else if (total2 == 7) Console.WriteLine("Você venceu uma viagem para dois!");
+        else Console.WriteLine("Você venceu um gato!");
+    }
 
-        // Aninhando instruções `if`
+    public static void AninhandoInstrucoesIf()
+    {
         bool hasIngresso = true;
         int age = 16;
         if (hasIngresso)
         {
-            if (age >= 18) Console.WriteLine("Entry granted.");
-            else Console.WriteLine("Minors must be accompanied by an adult.");
+            if (age >= 18) Console.WriteLine("Entrada Garantida.");
+            else Console.WriteLine("Menores de idade devem ser acompanhados por um adulto.");
         }
+    }
 
+    public static void UsandoOperadoresLogicos()
+    {
         // Usando && (todas as condições devem ser atendidas)
         int idade = 20;
         bool hasTicket = true;
-        if (idade >= 18 && hasTicket) Console.WriteLine("Entry granted.");
-        else Console.WriteLine("Entry denied.");
+        if (idade >= 18 && hasTicket) Console.WriteLine("Entrada Garantida.");
+        else Console.WriteLine("Entrada Negada.");
 
         // Usando || (pelo menos uma das condições deve ser atendida)
         bool isWeekend = false;
         bool isHoliday = true;
-        if (isWeekend || isHoliday) Console.WriteLine("The office is closed.");
+        if (isWeekend || isHoliday) Console.WriteLine("O escritório está fechado.");
 
         // Usando ! (inverter uma condição)
         bool isLoggedIn = false;
         if (!isLoggedIn)
         {
-            Console.WriteLine("Please log in to continue.");
+            Console.WriteLine("Por favor, faça o login para continuar.");
         }
 
         // Combinar operadores
         int roll1 = 6, roll2 = 6, roll3 = 5;
         if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
         {
-            Console.WriteLine("You rolled doubles!");
+            Console.WriteLine("Você obteve dobros!");
         }
     }
 

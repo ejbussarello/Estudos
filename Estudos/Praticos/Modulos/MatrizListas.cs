@@ -10,10 +10,10 @@ public class MatrizListas
         // A primeira linha cria uma lista com três valores iniciais. 
         // A segunda linha cria uma lista vazia à qual você pode adicionar itens posteriormente.
 
-        List<string> colors = new List<string> { "red", "green", "blue" };
+        List<string> colors = new List<string> { "vermelho", "verde", "azul" };
         List<int> scores = new List<int>();
 
-        // Operações de listas comuns
+        // Operações de listas comuns:
 
         //list.Count	     Retorna o número de itens
         //list.Add(value)	 Adiciona um item ao final da lista
@@ -22,20 +22,20 @@ public class MatrizListas
         //list.RemoveAt(i)	 Remove o item no índice i
         //list.Sort()	     Classifica a própria lista
 
-        List<string> cores = new List<string> { "red", "green", "blue" };
+        List<string> cores = new List<string> { "vermelho", "verde", "azul" };
 
         Console.WriteLine(cores.Count); // 3
-        cores.Add("yellow");            // Adiciona "yellow" no final da lista
+        cores.Add("amarelo");           // Adiciona "amarelo" no final da lista
         Console.WriteLine(cores.Count); // 4
 
-        cores.Remove("red");            // Remove "red"
-        cores[0] = "purple";            // Substitui "green" por "purple"
+        cores.Remove("vermelho");       // Remove "vermelho"
+        cores[0] = "roxo";              // Substitui "verde" por "roxo"
 
         // Iterar sobre uma lista
         List<int> pontos = new List<int> { 95, 82, 76, 91 };
         foreach (int score in pontos)
         {
-            Console.WriteLine(pontos);
+            Console.WriteLine(score);
         }
 
     }
@@ -47,18 +47,18 @@ public class MatrizListas
         // A primeira linha cria uma matriz de três cadeias de caracteres. 
         // A segunda linha cria uma matriz que pode conter quatro inteiros, cada um começando no valor padrão de 0
 
-        string[] colors = { "red", "green", "blue" };
+        string[] colors = { "vermelho", "verde", "azul" };
         int[] scores = new int[4];
 
         // Acessando itens por índice
-        string[] cores = { "red", "green", "blue" };
-        Console.WriteLine(cores[0]); // Output: red
-        Console.WriteLine(cores[2]); // Output: blue
+        string[] cores = { "vermelho", "verde", "azul" };
+        Console.WriteLine(cores[0]); // Output: vermelho
+        Console.WriteLine(cores[2]); // Output: azul
 
         // O tamanho fixo de uma Matriz
-        string[] cores2 = { "red", "green", "blue" };
-        cores2[0] = "purple"; // Replaces "red" with "purple"
-        Console.WriteLine(cores2[0]); // Output: purple
+        string[] cores2 = { "vermelho", "verde", "azul" };
+        cores2[0] = "roxo"; // Replaces "vermelho" with "roxo"
+        Console.WriteLine(cores2[0]); // Output: roxo
         Console.WriteLine(cores2.Length); // Output: 3
 
         // Iterar em uma matriz

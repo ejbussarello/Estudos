@@ -1,26 +1,28 @@
 namespace Estudos.Praticos;
 
-public static class Caracteres
+public static class ManipulacaoDeStrings
 {
-    public static void Executar()
+
+    public static void Strings()
     {
         // Concatenação (unindo cadeias de caracteres)
-        string first = "Hello";
-        string last = "World";
+        string first = "Olá";
+        string last = "Mundo";
         string message = first + ", " + last + "!";
         Console.WriteLine(message);
 
         // Uma maneira melhor: interpolação de cadeia de caracteres
         string name = "Alice";
-        string greeting = $"Hello, {name}! Welcome to the program.";
+        string greeting = $"Olá, {name}! Bem-vindo ao programa.";
         Console.WriteLine(greeting);
 
         // Uma maneira mais limpa de combinar entrada e saída
         string nome = Console.ReadLine() ?? string.Empty;
-        string saudacao = $"Hello, {nome}! Welcome to the program.";
+        string saudacao = $"Olá, {nome}! Bem-vindo ao programa.";
         Console.WriteLine(saudacao);
 
-        // Métodos comuns de cadeia de caracteres
+        // Métodos comuns de cadeia de caracteres:
+
         // ToUpper() - converte todos os caracteres para maiúsculas
         // ToLower() - converte todos os caracteres para minúsculas
         // Trim() - remove espaços em branco no início e no final da cadeia de caracteres
@@ -35,7 +37,9 @@ public static class Caracteres
         // EndsWith() - verifica se a cadeia de caracteres termina com uma substring específica
 
         string a = Console.ReadLine() ?? string.Empty;
-        string b = $"Hello, {a.ToUpper()}! Welcome to the program.";
+        string b = $"Olá, {a.ToUpper()}! Bem-vindo ao programa.";
         Console.WriteLine(b);
+
     }
+
 }

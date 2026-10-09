@@ -4,7 +4,8 @@ namespace Estudos.Praticos;
 
 public static class LacosRepeticao
 {
-    public static void Executar()
+
+    public static void LacosDeRepeticao()
     {
         // Exemplo de laço de repetição for
         Console.WriteLine("Exemplo de laço for:");
@@ -30,7 +31,10 @@ public static class LacosRepeticao
             Console.WriteLine($"Iteração {k + 1}");
             k++;
         } while (k < 5);
+    }
 
+    public static void InterrupcaoEContinuacao()
+    {
         // Interrupção: sair do loop antecipadamente
         for (int count = 0; count < 10; count++)
         {
@@ -52,7 +56,9 @@ public static class LacosRepeticao
             }
             Console.WriteLine(count);
         }
-
+    }
+    public static void GerenciandoLoopsWhile()
+    {
         // Gerenciando loops while com break
         while (true)
         {
@@ -86,7 +92,6 @@ public static class LacosRepeticao
         }
 
         Console.WriteLine("Scan do inventário completo!");
-
-
     }
+
 }

@@ -2,9 +2,10 @@ using System;
 
 namespace Estudos.Praticos;
 
-public static class InteracaoUsuario
+public static class InteracaoComUsuario
 {
-    public static void Executar()
+    
+    public static void SolicitarInformacoes()
     {
         // Solicita ao usuário que insira seu nome
         Console.WriteLine("Por favor, insira seu nome:");
@@ -24,6 +25,5 @@ public static class InteracaoUsuario
         // Exibe uma mensagem de boas-vindas personalizada
         Console.WriteLine($"Olá, {nome}! Você tem {idade} anos.");
     }
-
 
 }
