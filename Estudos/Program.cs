@@ -1,1 +1,1 @@
-﻿Estudos.Praticos.DoWhileRPG.BatalhaRPG();
+﻿Estudos.Praticos.IteracaoNumeroValido.VerificaNumeroValido();

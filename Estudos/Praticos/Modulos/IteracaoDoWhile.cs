@@ -44,4 +44,36 @@ public static class IteracaoDoWhile
         } while (current != 7);
     }
 
+    public static void WhileEntradaUsuario()
+    {
+        string? readResult;
+        Console.WriteLine("Digite qualquer coisa:");
+        do
+        {
+            readResult = Console.ReadLine();
+        } while (readResult == null);
+    }
+
+    public static void WhileEntradaMaior3Letras()
+    {
+        string? readResult;
+        bool validEntry = false;
+        Console.WriteLine("Enter a string containing at least three characters:");
+        do
+        {
+            readResult = Console.ReadLine();
+            if (readResult != null)
+            {
+                if (readResult.Length >= 3)
+                {
+                    validEntry = true;
+                }
+                else
+                {
+                    Console.WriteLine("Your input is invalid, please try again.");
+                }
+            }
+        } while (validEntry == false);
+    }
+
 }
