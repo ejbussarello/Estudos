@@ -1,2 +1,1 @@
-﻿
-Estudos.Praticos.Exercicios.CalculadoraCobranca.PDV.Checkout();
+﻿Estudos.Praticos.VerificarPermissaoAcesso.TelaLogin();

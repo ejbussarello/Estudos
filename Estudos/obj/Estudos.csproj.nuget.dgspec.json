@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSharp\\Projetos\\Estudos\\Estudos\\Estudos.csproj": {}
+    "d:\\CSharp\\Projetos\\Estudos\\Estudos\\Estudos.csproj": {}
   },
   "projects": {
-    "D:\\CSharp\\Projetos\\Estudos\\Estudos\\Estudos.csproj": {
+    "d:\\CSharp\\Projetos\\Estudos\\Estudos\\Estudos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharp\\Projetos\\Estudos\\Estudos\\Estudos.csproj",
+        "projectUniqueName": "d:\\CSharp\\Projetos\\Estudos\\Estudos\\Estudos.csproj",
         "projectName": "Estudos",
-        "projectPath": "D:\\CSharp\\Projetos\\Estudos\\Estudos\\Estudos.csproj",
+        "projectPath": "d:\\CSharp\\Projetos\\Estudos\\Estudos\\Estudos.csproj",
         "packagesPath": "C:\\Users\\ejbbu\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharp\\Projetos\\Estudos\\Estudos\\obj\\",
+        "outputPath": "d:\\CSharp\\Projetos\\Estudos\\Estudos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
