@@ -1,1 +1,1 @@
-﻿Estudos.Praticos.IteracaoNumeroValido.VerificaNumeroValido();
+﻿Estudos.Praticos.AppPet.Main();
