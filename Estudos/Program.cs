@@ -1,1 +1,1 @@
-﻿Estudos.Praticos.VerificarPermissaoAcesso.TelaLogin();
+﻿Estudos.Praticos.Modulos.SwitchCase.ModeloComSwitchCase();
