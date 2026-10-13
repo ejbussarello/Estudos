@@ -103,4 +103,21 @@ public class Metodos
         // int x = Add(3, 4); // Erro de compilação: não é possível atribuir o resultado de um método void a uma variável
     }
 
+    public static void MetodoArray()
+    {
+        int[] a = {1,2,3,4,5};
+
+        Console.WriteLine("Contents of Array:");
+        PrintArray();
+
+        void PrintArray()
+        {
+            foreach (int x in a)
+            {
+                Console.Write($"{x} ");
+            }
+            Console.WriteLine();
+        }
+    }
+
 }
